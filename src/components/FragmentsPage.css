@@ -1,0 +1,72 @@
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  li span {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  li button {
+    margin-left: 0.5rem;
+  }
+  /* FragmentsPage.css */
+.fragments-page-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fragments-page-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .fragments-page-container .button-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fragments-page-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .fragments-page-container .fragment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fragments-page-container .fragment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  
+  .fragments-page-container .fragment-item span {
+    font-size: 18px;
+  }
+  
+  .fragments-page-container .fragment-item div {
+    display: flex;
+    gap: 10px;
+  }
+  
